@@ -6,26 +6,26 @@ This was my final year project for my computing degree, where i have created a w
 
 You are able to run this project on any popular IDE out there. ItelliJ IDEA was used for this project to develop the front end. this was all hosted locally on Xampp and MySQL was used for the back end Database.
 
-**Starting Off**
+## Starting Off
 
 To install this project and get it up and running follow the steps provided.
 
-**Downloading Xampp**
+## Downloading Xampp
 
 From the link provided, you have the option of choosing for a Mac Os or a Windows machine.
 https://www.apachefriends.org/download.html.
 
 
-**Downloading IDEA**
+## Downloading IDEA
 
 Any IDEA can be used to run this project E.g Atom, phpStrom etc.
 But the one which was used for this project was IntelliJ which can be downloaded from here as a trial:https://www.jetbrains.com/idea/download/#section=windows.
 
-**Setting up files**
+## Setting up files
 
 Once this is done either clone the Repo or download as a zip file and import into the 'Htdocs' folder in Xampp. And finally open the files in the IDEA of your choosing.
 
-**Importing Database**
+## Importing Database
 
 In the repo there is a file under the name 'phpmultipage.sql'. Import this file into Xampp's Database as a new db.
 
