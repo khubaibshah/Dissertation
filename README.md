@@ -6,6 +6,8 @@ This was my final year project for my computing degree, where i have created a w
 
 You are able to run this project on any popular IDE out there. ItelliJ IDEA was used for this project to develop the front end. this was all hosted locally on Xampp and MySQL was used for the back end Database.
 
+PHP is one of my stronger suits to say the least and this entire project was coded majority from scratch using PHP.
+
 ## Starting Off
 
 To install this project and get it up and running follow the steps provided.
