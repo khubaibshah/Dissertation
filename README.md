@@ -14,13 +14,16 @@ To install this project and get it up and running follow the steps provided.
 
 From the link provided, you have the option of choosing for a Mac Os or a Windows machine.
 https://www.apachefriends.org/download.html.
-Once this is up and running 
+
 
 **Downloading IDEA**
 
 Any IDEA can be used to run this project E.g Atom, phpStrom etc.
 But the one which was used for this project was IntelliJ which can be downloaded from here as a trial:https://www.jetbrains.com/idea/download/#section=windows.
-Once this is done either clone the Repo or download as a zip file and import into the IDEA of your choosing.
+
+**Setting up files**
+
+Once this is done either clone the Repo or download as a zip file and import into the 'Htdocs' folder in Xampp. And finally open the files in the IDEA of your choosing.
 
 **Importing Database**
 
