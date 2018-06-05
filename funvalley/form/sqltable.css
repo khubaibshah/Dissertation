@@ -1,0 +1,41 @@
+table{
+    width:100%;
+
+}
+table tr:hover{
+    background-color:red;
+
+}
+
+th{
+    width:25%;
+    border:none;
+    background-color:mediumpurple;
+    height:40px;
+}
+td{
+    width:25%;
+    border:none;
+    text-align:center;
+    padding:10px;
+    background-color:#e3e3e3;
+}
+
+
+
+.myInput {
+
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+    /*background-image: url('../img/search.png');*/
+    /*background-position: 10px 10px;*/
+    /*background-repeat: no-repeat;*/
+
+    font-size: 20px;
+
+    background-color: red;
+}
+th:hover {background-color:red;}
+
+td:hover {background-color:red;}

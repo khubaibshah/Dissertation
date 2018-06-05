@@ -1,0 +1,158 @@
+<html>
+<head>
+    <title>Add Data</title>
+    <link rel="stylesheet" href="sqltable.css" />
+</head>
+
+<body>
+<a  class="button button2" href="index.php">Home</a>
+<br/><br/>
+
+<form action="add.php" method="post" name="form1">
+    <table width="25%" border="0">
+        <tr>
+            <td>User ID : Auto assigned</td>
+
+        </tr>
+        <tr>
+            <td>partydate</td>
+            <td><input type="date" name="partydate" ></td>
+        </tr>
+        <tr>
+            <td>partytime</td>
+            <td><select name="partytime">
+                <option value="">----Select----</option>
+                <option value="10:00-12:00" value="">10:00-12:00 </option>
+                <option value="13:00-15:00 " value="">13:00-15:00 </option>
+                <option value="16:00-18:00" value="">16:00-18:00</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td>partybag</td>
+            <td><input type="radio" name="partybag" value="Yes" required>Yes
+                <input type="radio" name="partybag" value="No">No<br></td>
+        </tr>
+        <tr>
+            <td>partyfoodselection1</td>
+            <td><select name="partyfoodselection1">
+                <option value="">----Select----</option>
+                <option value="None" value="">None </option>
+                <option value="Chicken nuggets (Standard Pizza slice fries and squash)" value="">Chicken nuggets (Standard Pizza slice fries and squash) </option>
+                <option value="Fish fingers (Standard Pizza slice fries and squash)" value="">Fish fingers (Standard Pizza slice fries and squash) </option>
+                <option value="Veg fingers (Standard Pizza slice fries and squash)" value="">Veg fingers (Standard Pizza slice fries and squash)</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td>partyfoodselection2</td>
+            <td><select name="partyfoodselection2">
+                <option value="">----Select----</option>
+                <option value="None" value="">None </option>
+                <option value="Beans (Standard Pizza slice fries and squash)" value="">Beans (Standard Pizza slice fries and squash) </option>
+                <option value="Spaghetti (Standard Pizza slice fries and squash)" value="">Spaghetti (Standard Pizza slice fries and squash) </option>
+                <option value="Sweetcorn (Standard Pizza slice fries and squash)" value="">Sweetcorn (Standard Pizza slice fries and squash)</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td>icecream</td>
+            <td><select name="icecream">
+                <option value="">----Select----</option>
+                <option value="None" value="">None </option>
+                <option value="Bubblegum" value="">Bubblegum </option>
+                <option value="Vanilla" value="">Vanilla </option>
+                <option value="Chocolate" value="">Chocolate</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td>foodplatters</td>
+            <td><select name="foodplatters">
+                <option value="">----Select----</option>
+                <option value="None" value="">None </option>
+                <option value="Vegetable" value="">Vegetable</option>
+                <option value="Meat" value="">Meat </option>
+                <option value="Chicken" value="">Chicken</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td>springrolls</td>
+            <td><select name="springrolls">
+                <option value="">----Select----</option>
+
+                <option value="Yes" value="">Yes </option>
+                <option value="No" value="">No </option>
+
+            </select></td>
+        </tr>
+        <tr>
+            <td>sandwiches</td>
+            <td><select name="sandwiches">
+                <option value="">----Select----</option>
+                <option value="Tuna" value="">Tuna</option>
+                <option value="Tuna Sweetcorn" value="">Tuna Sweetcorn</option>
+                <option value="Egg Mayo" value="">Egg Mayo </option>
+                <option value="Cheese & Onion" value="">Cheese & Onion</option>
+                <option value="Cheese & Salad" value="">Cheese & Salad</option>
+                <option value="Salad" value="">Salad</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td>Childsname</td>
+            <td><input type="text" name="childsname" ></td>
+        </tr>
+        <tr>
+            <td>Childs age</td>
+            <td><input type="text" name="childsage" ></td>
+        </tr>
+        <tr>
+            <td>childsgender</td>
+            <td><select name="morf">
+                <option value="">----Select----</option>
+                <option value="male" value="">Male </option>
+                <option value="female" value="">Female </option>
+
+            </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Children attending</td>
+            <td><input type="text" name="childrenattending" placeholder="Min 10 - Max 25"></td>
+        </tr>
+        <tr>
+            <td>Name of adult</td>
+            <td><input type="text" name="name" placeholder="5 pound charge for each extra adults"></td>
+        </tr>
+        <tr>
+            <td>contact number</td>
+            <td><input type="text" name="contact" placeholder="E.g +44 2345 67891"  ></td>
+        </tr>
+        <tr>
+            <td>email</td>
+            <td><input type="text" name="email" placeholder="Ex-anderson@gmail.com"  ></td>
+        </tr>
+
+        <tr>
+            <td>address</td>
+            <td><input type="text" name="address1" placeholder=" Home address" ></td>
+        </tr>
+        <tr>
+            <td>postcode</td>
+            <td><input type="text" name="postcode"  placeholder="BL1 8DT" ></td>
+        </tr>
+
+        <tr>
+            <td>number of adults attending</td>
+            <td><input type="text" name="adultsinattendance" placeholder="Min 5 - Max 10"  ></td>
+        </tr>
+
+
+        <tr>
+            <td> City/Town</td>
+            <td><input type="text" name="citytown" placeholder="E.g bolton " ></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" name="Submit" value="Add" class="button button2"></td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
