@@ -24,6 +24,6 @@ Once this is done either clone the Repo or download as a zip file and import int
 
 **Importing Database**
 
-in the repo there is a file under the name 'phpmultipage.sql'. Import this file into Xampp's Database as a new db.
+In the repo there is a file under the name 'phpmultipage.sql'. Import this file into Xampp's Database as a new db.
 
 
